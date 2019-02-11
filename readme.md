@@ -7,7 +7,10 @@ Collaborators: none
 
 This is a Java program.  Assumes the JDK is installed, and `javac` plus `java` are in the path.
 
-Execution instructions:
+My original solution from Homework 1 was written in Python.  I have not made any changes to the high level design.  I believe
+I got it right the first time.
+
+## Execution instructions:
 
 From a Unix or MacOS command line, execute `./run.sh`
 

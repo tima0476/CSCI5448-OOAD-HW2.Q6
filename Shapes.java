@@ -1,7 +1,8 @@
 // Shapes.java
 //
 //	CSCI 5448 OOAD - Homework 2, Question 6 solution.  Re-implementation of Shapes program from
-//	HW 1 using Java this time instead of Python.
+//	HW 1 using Java this time instead of Python.  No changes to the high level design.  I believe
+//  I got it right the first time.
 //
 //	name: Timothy Mason			Collaborators: none
 //
