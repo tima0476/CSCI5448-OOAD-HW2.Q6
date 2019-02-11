@@ -5,10 +5,10 @@ Name: Timothy Mason
 
 Collaborators: none
 
-This is a Java program.  Assumes the JDK is installed, and javac plus java are in the path.
+This is a Java program.  Assumes the JDK is installed, and `javac` plus `java` are in the path.
 
 Execution instructions:
 
-From a Unix or MacOS command line, execute ./run.sh
+From a Unix or MacOS command line, execute `./run.sh`
 
-In Windows, open a command shell (cmd.exe), then execute run.bat from the directory with the source files.
+In Windows, open a command shell (`cmd.exe`), then execute `run.bat` from the directory with the source files.
