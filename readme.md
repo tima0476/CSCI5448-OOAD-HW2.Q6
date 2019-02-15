@@ -11,8 +11,8 @@ My original solution from Homework 1 was written in Python.  I have not made any
 design assumes all shapes are regular polygons and therefore having a center point and radius
 in the base class (common to all shapes) makes sense.
 
-Discussion: In light of what has been discussed in class, if I were to redesign this
-application I would use a delegation pattern rather that inheritance.  Instead
+**Discussion:** In light of what has been discussed in class, if I were to redesign this
+application I would use a delegation pattern rather than inheritance.  Instead
 of a shapes base class I might define a shapes interface, and then the various
 shapes such as Circle, Square, and Triangle would implement the Shapes
 interface.  I also would further specialize each specific shape class to
