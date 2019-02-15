@@ -1,11 +1,25 @@
-// Shapes.java
-//
-//	CSCI 5448 OOAD - Homework 2, Question 6 solution.  Re-implementation of Shapes program from
-//	HW 1 using Java this time instead of Python.  No changes to the high level design.  I believe
-//  I got it right the first time.
-//
-//	name: Timothy Mason			Collaborators: none
-//
+/*  Shapes.java
+
+name: Timothy Mason			Collaborators: none
+
+    CSCI 5448 OOAD - Homework 2, Question 6 solution.  Re- implementation of
+Shapes program from HW 1 using Java this time instead of Python.  No changes
+to the high level design.  Note: This design assumes all shapes are regular
+polygons and therefore having a center point and radius  in the base class
+(common to all shapes) makes sense.
+
+ 
+In light of what has been discussed in class, if I were to redesign this
+application I would use a delegation pattern rather that inheritance.  Instead
+of a shapes base class I might define a shapes interface, and then the various
+shapes such as Circle, Square, and Triangle would implement the Shapes
+interface.  I also would further specialize each specific shape class to
+remove the regular polygon restriction.  For example, the Triangle could be
+modified to allow definition on a non-isosceles triangle.  (The center could
+then be computed as the average of the 3 points)
+
+*/
+
 import java.util.*;
 
 public class Shapes implements Comparable<Shapes>{
@@ -121,8 +135,10 @@ public class Shapes implements Comparable<Shapes>{
 		Arrays.sort(shapes);
 
 		// "draw" the data
+		System.out.println(String.format("The database contains %d shapes.\n", shapes.length));
+		int i=1;
 		for (Shapes s: shapes) {
-			System.out.println(s);
+			System.out.println(String.format("%2d: %s", i++, s));
 		}
 	}
 }

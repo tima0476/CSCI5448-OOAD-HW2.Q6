@@ -7,8 +7,18 @@ Collaborators: none
 
 This is a Java program.  Assumes the JDK is installed, and `javac` plus `java` are in the path.
 
-My original solution from Homework 1 was written in Python.  I have not made any changes to the high level design.  I believe
-I got it right the first time.
+My original solution from Homework 1 was written in Python.  I have not made any changes to the high level design.  Note: This
+design assumes all shapes are regular polygons and therefore having a center point and radius
+in the base class (common to all shapes) makes sense.
+
+Discussion: In light of what has been discussed in class, if I were to redesign this
+application I would use a delegation pattern rather that inheritance.  Instead
+of a shapes base class I might define a shapes interface, and then the various
+shapes such as Circle, Square, and Triangle would implement the Shapes
+interface.  I also would further specialize each specific shape class to
+remove the regular polygon restriction.  For example, the Triangle could be
+modified to allow definition on a non-isosceles triangle.  (The center could
+then be computed as the average of the 3 points)
 
 ## Execution instructions:
 
