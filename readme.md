@@ -5,7 +5,14 @@ Name: Timothy Mason
 
 Collaborators: none
 
-This is a Java program.  Assumes the JDK is installed, and `javac` plus `java` are in the path.
+This is a Java program.  Assumes the JDK is installed, and `javac` plus `java` are in the path.  Programmed and tested
+using:
+
+```
+java 10.0.2 2018-07-17
+Java(TM) SE Runtime Environment 18.3 (build 10.0.2+13)
+Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.2+13, mixed mode)
+```
 
 My original solution from Homework 1 was written in Python.  I have not made any changes to the high level design.  Note: This
 design assumes all shapes are regular polygons and therefore having a center point and radius
